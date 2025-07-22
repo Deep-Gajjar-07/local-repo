@@ -1,11 +1,46 @@
-<html>
-    <link rel="stylesheet" href="styles.css">
-    <body>
-        
-        <h2>Hello world!</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-        <p>This is just a practice file and repo for github which i am learning! Thank you</p>
-        Username : <input type="text" name="name">
-        Submit : <input type="submit" value="SUBMIT">
-    </body>
+<head>
+    <title>Student form</title>
+</head>
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+    }
+
+    table {
+        background-color: aqua;
+        border-radius: 20px;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <center>
+        <h2>Student Info Form : </h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name : </td>
+                    <td><input required type="text" name="std_name"></td>
+                </tr>
+                <tr>
+                    <td>Phone No : </td>
+                    <td><input required type="number" name="std_phno"></td>
+                </tr>
+                <tr>
+                    <td>City : </td>
+                    <td><input required type="text" name="std_city"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
 </html>
